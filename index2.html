@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css" type="text/css">
+    <script src="myscripts.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <title>Final</title>
+
+    <script type="text/javascript">
+
+        var picPaths = ['images/one.jpg','images/two.jpg','images/three.jpg'];
+        var imageIndex = 0;
+        var bannerImage; 
+        function startInterval() {
+            setInterval(displayNextImage, 2000);
+        }
+
+        function displayNextImage() {
+            bannerImage.src = picPaths[imageIndex];
+            if(imageIndex === (picPaths.length-1)) {
+                imageIndex = 0;
+            }
+            else {
+                imageIndex = imageIndex + 1;  
+            }
+        }
+        window.onload=function() {
+            bannerImage = document.getElementById('changeImage');
+            startInterval();
+        }
+
+    </script>
+
+    
+</head>
+<body>
+
+    <!--Section 1-->
+    <section id="section-1">
+        <div class="backImg">
+
+        </div>
+    </section>
+
+
+    <!--Section2-->
+    <section id="section-2" class="editorial">
+
+        <div class="row"> 
+        <div class="col-lg-6 col-md-6 col-12">
+            <img id="changeImage" src="images/zero.jpg" height="500px" width="400px" class="sticky">
+        </div>
+
+
+        <div class="col-lg-6 col-md-6 col-12" style="padding-left: 50px;">
+
+            <p>
+                <span class="lead">Daft Punk are standing on a helipad</span>
+                overlooking downtown Los Angeles as
+                fireballs make their sequined suits glisten with hot heat. It's a few days
+                before this year's Coachella, where the duo's shiny new duds will premiere
+                by way of a Jumbotron trailer for their new album, <em>Random Access Memories</em>.
+                But for now, only a very select few have laid eyes on the outfits—and
+                everyone involved in today's photo shoot desperately wants to keep it that way.
+            </p>
+
+            <p>
+                This task proves to be somewhat difficult. The helipad is inside a public park,
+                and there's a pedestrian path right next to it. Errant runners and bikers are all but inevitable,
+                and if one of them decides to whip their phone out, snap a photo,
+                and upload it to Instagram without breaking stride, this important piece of Daft Punk's
+                meticulous rollout strategy will be ruined.
+            </p>
+
+            <p>
+                For the first part of the day's shoot, Thomas Bangalter (silver helmet)
+                and Guy-Manuel de Homem-Christo (gold helmet) stand behind a wall of eight-foot flames.
+                Members of the crew, some of whom wear white gloves in order to avoid smudges on the pair's
+                glittering getups, remain vigilant for curious passersby. And as the fireball sequence begins,
+                a guy is seen creeping up from a clearing off to the side of the helipad.
+                He sits in the grass close by, shakily opens his backpack, and takes a sip from a water bottle.
+                “Is that them?” he asks, brandishing his phone.
+            </p>
+
+            <p>
+                DJ Falcon, longtime friend of Daft Punk and one of many collaborators on the new album,
+                rushes over. “The guy was in a trance,” recalls Falcon a couple of days later.
+                “It's like he was thinking, ‘That's the picture of my life—I'm
+                going to be the one who shows the world.’ I could feel the intensity.”
+                So as the trembling fan tries to get his shot, Falcon sticks his arms up to block him,
+                “like an NBA defender.” A park monitor notices the hubbub and screams,
+                “Assault! Permit revoked! Shut it down!” Daft Punk retreat to their trailer.
+                No more fireballs.
+            </p>
+
+            <p>
+                Eventually, the drama dies down enough for everyone to review the would-be paparazzo's
+                camera phone footage. “It was just a video of me trying to protect my friends—jumping
+                in front of the bullet,” says Falcon. “You couldn't see shit.”
+            </p>
+
+            <p class="break">↗↗↗</p>
+
+            <p>
+                <span class="lead">Zoom out for a second,</span> and this entire scene can seem deeply silly:
+                a group of adults frantically trying to hide the image of two Frenchmen
+                in their late 30s wearing costumes that make them look like C-3PO after
+                a well-tailored disco makeover. But once you spend any time with Daft Punk—or
+                even just listen to their music, or watch their videos, or gawk at their live show—such
+                protectiveness suddenly becomes understandable, even necessary. It's an instinct
+                to keep the idea of mystery alive at a time when it seems to be in historically short supply.
+            </p>
+
+            <p>
+                The day after the pair's refurbished guises were revealed on Coachella's screens as planned—causing
+                mad dashes and some of the festival's most excited outbursts—Bangalter
+                says everything about <em>RAM</em> and its buildup is about the surprise, the magic.
+                “When you know how a magic trick is done, it's <em>so</em> depressing,” he explains.
+                “We focus on the illusion because giving away how it's done instantly shuts down
+                the sense of excitement and innocence.”
+            </p>
+
+            <p>
+                This strategy extends to the album’s daunting and ambitious conception,
+                which had Daft Punk recruiting some of the world's most gifted session players—guys
+                who worked on classics by the likes of Michael Jackson, Madonna, and David Bowie—to
+                lay down the beats, melodies, and chords bouncing around Bangalter and de Homem-Christo's heads.
+                Not to mention full-on, mind-melding collaborations with a number of their idols
+                and like-minded contemporaries including Chic mastermind Nile Rodgers, Pharrell,
+                schmaltzy 70s singer/songwriter Paul Williams, Panda Bear, house deity Todd Edwards,
+                and electro originator Giorgio Moroder. Plus: Everything was recorded onto analog tape
+                in rarified recording palaces like New York's Electric Lady and L.A.'s Capitol Studios.
+                Human spontaneity was coveted; computers, with their tendency toward mindless repetition, were not.
+            </p>
+
+            <p>
+                “Technology has made music accessible in a philosophically interesting way,
+                which is great,” says Bangalter, talking about the proliferation of home recording
+                and the laptop studio. “But on the other hand, when everybody has the ability to make magic,
+                it's like there's no more magic—if the audience can just do it themselves,
+                why are they going to bother?”
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<div class="page-wrapper">
+    <div class="post-slider">
+        <h5 class="slider-title">Title</h5>
+    
+
+        <div class="post-wrapper">
+            <div class="post">1</div>
+            <div class="post">2</div>
+            <div class="post">3</div>
+            <div class="post">4</div>
+        </div>
+    </div>
+</div>
+
+<footer>
+</footer>
+
+<script src="myscripts.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+</html>
