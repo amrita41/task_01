@@ -8,7 +8,7 @@
 {
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     background-image: linear-gradient(to right, rgb(187, 203, 224) , rgb(177, 132, 153));
     background-attachment: fixed;
 }
@@ -25,6 +25,7 @@ img.sticky
     position: sticky;
     top: 0;
 }
+
 .lead {
     font-family: colfax-web, sans-serif;
     font-weight: bold;
@@ -36,30 +37,8 @@ img.sticky
     font-size: 0.75em;
     text-align: center;
 }
-.post-slider
-{
-    padding: 5em 6em;
-}
-.post-slider .post-wrapper
-{
-    width: 100%;
-    height: 500px;
-    overflow: hidden;
-}
-.post-slider .slider-title
-{
-    text-align: center;
-}
-.post-slider .post-wrapper .post
-{
-    /*width: 300px;*/
-    height: 500px;
-    margin: 0px 20px;
-    background-color: #888888;
-    display: inline-block;
-}
 footer {
+
     background: rgb(187, 203, 224);
     padding: 0em 6em 20em;
-    position: relative;
 }
